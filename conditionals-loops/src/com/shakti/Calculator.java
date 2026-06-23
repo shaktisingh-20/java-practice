@@ -8,6 +8,8 @@ public class Calculator {
         System.out.print("Choose the operator + - * % / (or x to exit) => ");
         char op = sc.next().trim().charAt(0);
 
+
+        //Take in two numbers and an operator (+, -, *, /) and calculate the value.(Use if conditions)
         if (op == 'x' || op == 'X') {
             System.out.println("Exiting...");
             return;
