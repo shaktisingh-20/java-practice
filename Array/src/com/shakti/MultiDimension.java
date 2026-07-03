@@ -7,11 +7,11 @@ public class MultiDimension {
         4 5 6
         7 8 9
         */
-
+        int [] [] arr2 = new int [3][];
         int [] [] arr = {
                 {1,2,3},
-                {4,5,6},
-                {7,8,9},
+                {4,5},
+                {7,8,9,12},
         };
         System.out.println(arr[1][0]);
     }
