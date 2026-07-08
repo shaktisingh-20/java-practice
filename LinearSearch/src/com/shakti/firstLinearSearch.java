@@ -41,9 +41,8 @@ public class firstLinearSearch {
             return false;
         }
 
-        for (int index = 0; index < nums.length; index++) {
-            int element = nums[index];
-            if(element == target){
+        for (int element : nums) {
+            if (element == target) {
                 return true;
             }
         }
