@@ -2,7 +2,7 @@ package com.shakti;
 
 public class practice {
     public static void main(String[] args) {
-        int [] nums = {12,23,34,56,8,65,34};
+        int [] nums = {12,23,34,56,8,65,8};
         int target = 8;
         int ans = linearSearch(nums,target);
         System.out.println(ans);
