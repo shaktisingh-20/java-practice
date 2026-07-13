@@ -35,4 +35,8 @@ public class practiceEvenNoDigits {
         }
         return count;
     }
+
+    static int countDigit2(int num){
+        return (int) (Math.log10(num)) + 1; // another way of counting digit
+    }
 }
